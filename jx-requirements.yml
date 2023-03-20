@@ -17,8 +17,8 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
-    externalDNS: false
+    domain: "www.tardigrade.xyz"
+    externalDNS: true
     namespaceSubDomain: -jx.
     tls:
       email: ""
